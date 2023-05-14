@@ -80,7 +80,7 @@ fn main() {
             library,
             InstanceCreateInfo {
                 enabled_extensions: extensions,
-                enumerate_portability: true, // required for MoltenVK on macOS
+                enumerate_portability: true, 
                 max_api_version: Some(Version::V1_1),
                 ..Default::default()
             },
